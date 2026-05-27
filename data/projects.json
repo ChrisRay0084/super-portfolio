@@ -50,7 +50,7 @@
       "id": 301,
       "title": "Help Button",
       "description": "Help button animation.",
-      "image": "/images/animation/help button.png",
+      "image": "/images/animation/help button.PNG",
       "video": "/images/animation/help button.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -59,7 +59,7 @@
       "id": 302,
       "title": "Alarms Animated",
       "description": "Animation of various alarms.",
-      "image": "/images/animation/alarm_animation.png",
+      "image": "/images/animation/alarm_animation.PNG",
       "video": "/images/animation/alarm_animation.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -68,7 +68,7 @@
       "id": 303,
       "title": "Clock Sped Up",
       "description": "Animation of a clock sped up.",
-      "image": "/images/animation/clock fast.png",
+      "image": "/images/animation/clock fast.PNG",
       "video": "/images/animation/clock fast.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -77,7 +77,7 @@
       "id": 304,
       "title": "Chalk Board + Math",
       "description": "Animation of a chalk board and math example.",
-      "image": "/images/animation/chalk board.png",
+      "image": "/images/animation/chalk board.PNG",
       "video": "/images/animation/chalk board.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -86,7 +86,7 @@
       "id": 305,
       "title": "White Board + Math",
       "description": "Animation of a white board and math example.",
-      "image": "/images/animation/my_brick_white_brown_board.png",
+      "image": "/images/animation/my_brick_white_brown_board.PNG",
       "video": "/images/animation/my_brick_white_brown_board.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -95,7 +95,7 @@
       "id": 306,
       "title": "Brown Notebook Flip",
       "description": "Animation of a brown notebook turning its pages.",
-      "image": "/images/animation/brown_note book_page_turn.png",
+      "image": "/images/animation/brown_note book_page_turn.PNG",
       "video": "/images/animation/brown_note book_page_turn.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -104,7 +104,7 @@
       "id": 307,
       "title": "Airplane Drag Example",
       "description": "An example of airplane drag.",
-      "image": "/images/animation/cool drag text.png",
+      "image": "/images/animation/cool drag text.PNG",
       "video": "/images/animation/cool drag text.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -113,7 +113,7 @@
       "id": 308,
       "title": "A Planes Windshield",
       "description": "An example of a planes windshield.",
-      "image": "/images/animation/plane_windshield.png",
+      "image": "/images/animation/plane_windshield.PNG",
       "video": "/images/animation/plane_windshield.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -122,7 +122,7 @@
       "id": 309,
       "title": "Runway Takeoff",
       "description": "Animation of a 747 taking off from a runway.",
-      "image": "/images/animation/747_take_off_from_runway.png",
+      "image": "/images/animation/747_take_off_from_runway.PNG",
       "video": "/images/animation/747_take_off_from_runway.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -131,7 +131,7 @@
       "id": 310,
       "title": "Airplane Decent",
       "description": "Animation of an airplane decending.",
-      "image": "/images/animation/air_plane_decent.png",
+      "image": "/images/animation/air_plane_decent.PNG",
       "video": "/images/animation/air_plane_decent.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
@@ -140,7 +140,7 @@
       "id": 311,
       "title": "PPE Animation",
       "description": "An animation of the proper personal protective equipment.",
-      "image": "/images/animation/blob_ppe_animation_1.png",
+      "image": "/images/animation/blob_ppe_animation_1.PNG",
       "video": "/images/animation/blob_ppe_animation_1.mp4",
       "technologies": ["Adobe Animate"],
       "link": "#"
