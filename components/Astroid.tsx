@@ -104,13 +104,19 @@ export default function Astroit() {
         left: 0,
 
         x: useTransform(
-          [x, driftX, wobbleX],
-          ([main, drift, wobble]) => main + drift + wobble
+          [x, driftX, wobbleX] as const,
+          (values) => {
+            const [main, drift, wobble] = values as number[];
+            return main + drift + wobble;
+          }
         ),
 
         y: useTransform(
-          [y, driftY, wobbleY],
-          ([main, drift, wobble]) => main + drift + wobble
+          [y, driftY, wobbleY] as const,
+          (values) => {
+            const [main, drift, wobble] = values as number[];
+            return main + drift + wobble;
+          }
         ),
 
         scale,
