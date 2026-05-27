@@ -1,0 +1,152 @@
+{
+  "skills": [
+    {
+      "name": "React",
+      "image": "/images/skills/react.svg",
+      "proficiency": "Intermediate",
+      "years": 3,
+      "description": "Building production SPAs and dynamic UI systems.",
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "image": "/images/skills/typescript_svg.svg",
+      "proficiency": "Intermediate",
+      "years": 2,
+      "description": "Strong typing, interfaces, scalable architecture.",
+      "category": "Frontend"
+    },
+    {
+      "name": "Next.js",
+      "image": "/images/skills/next_dot_svg.svg",
+      "proficiency": "Advanced",
+      "years": 2,
+      "description": "SSR, App Router, API routes, performance optimization.",
+      "category": "Frontend"
+    },
+    {
+      "name": "Tailwind CSS",
+      "image": "/images/skills/tailwindcss.svg",
+      "proficiency": "Advanced",
+      "years": 2,
+      "description": "Utility-first CSS for rapid UI development.",
+      "category": "Frontend"
+    },
+    {
+      "name": "Node.js",
+      "image": "/images/skills/node_16_svg.svg",
+      "proficiency": "Intermediate",
+      "years": 2,
+      "description": "Building REST APIs and server-side applications.",
+      "category": "Backend"
+    },
+    {
+      "name": "HTML5",
+      "image": "/images/skills/html_5_svg.svg",
+      "proficiency": "Expert",
+      "years": 20,
+      "description": "Semantic markup, accessibility, and modern web standards.",
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS3",
+      "image": "/images/skills/css_3_svg.svg",
+      "proficiency": "Expert",
+      "years": 20,
+      "description": "Styling, responsive design, and modern CSS features.",
+      "category": "Frontend"
+    },
+    {
+      "name": "PHP",
+      "image": "/images/skills/php_svg.svg",
+      "proficiency": "Intermediate",
+      "years": 10,
+      "description": "Server-side scripting language for web development.",
+      "category": "Backend"
+    },
+    {
+      "name": "JSON",
+      "image": "/images/skills/json_svg.svg",
+      "proficiency": "Expert",
+      "years": 10,
+      "description": "Lightweight data interchange format for web applications.",
+      "category": "Backend"
+    },
+    {
+      "name": "MySQL",
+      "image": "/images/skills/mysql_svg.svg",
+      "proficiency": "Intermediate",
+      "years": 5,
+      "description": "Relational database management system for web applications.",
+      "category": "Backend"
+    },
+    {
+      "name": "SQL",
+      "image": "/images/skills/sql_svg.svg",
+      "proficiency": "Intermediate",
+      "years": 10,
+      "description": "Relational database management system for web applications.",
+      "category": "Backend"
+    },
+    {
+      "name": "JQuery",
+      "image": "/images/skills/jquery_svg.svg",
+      "proficiency": "Advanced",
+      "years": 15,
+      "description": "JavaScript library for DOM manipulation and event handling.",
+      "category": "Frontend"
+    },
+    {
+      "name": "Javascript",
+      "image": "/images/skills/javascript_svg.svg",
+      "proficiency": "Intermediate",
+      "years": 20,
+      "description": "Programming language for web development, enabling interactivity and dynamic content.",
+      "category": "Frontend"
+    }
+  ],
+  "applications": [
+    {
+      "name": "Photoshop",
+      "image": "/images/skills/photoshop_svg.svg",
+      "proficiency": "Advanced",
+      "years": 20,
+      "description": "Digital image editing and creative design."
+    },
+    {
+      "name": "Illustrator",
+      "image": "/images/skills/illustrator_svg.svg",
+      "proficiency": "Intermediate",
+      "years": 20,
+      "description": "Vector graphics and design creation."
+    },
+    {
+      "name": "PhpStorm",
+      "image": "/images/skills/phpstorm_svg.svg",
+      "proficiency": "Expert",
+      "years": 10,
+      "description": "IDE for web development."
+    },
+    {
+      "name": "Postgres",
+      "image": "/images/skills/postgresql_svg.svg",
+      "proficiency": "Intermediate",
+      "years": 8,
+      "description": "Project management and team collaboration."
+    },
+    {
+      "name": "ClickUp",
+      "image": "/images/skills/ClickUp_svg.svg",
+      "proficiency": "Intermediate",
+      "years": 5,
+      "description": "Project management and team collaboration."
+    },
+    {
+      "name": "Visual Studio Code",
+      "image": "/images/skills/vs_code_svg.svg",
+      "proficiency": "Advanced",
+      "years": 2,
+      "description": "IDE for web development."
+    }
+  ]
+}

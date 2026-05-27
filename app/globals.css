@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* ===== THEME VARIABLES ===== */
+:root {
+  /* LIGHT THEME */
+  --color-primary: #ffffff;
+  --color-secondary: #f97316;
+  --color-accent: #ef4444;
+  --color-text: #111827;
+}
+
+html.dark {
+  /* DARK THEME (FUTURISTIC) */
+  --color-primary: #000000;
+  --color-secondary: #22c55e;
+  --color-accent: #0ea5e9;
+  --color-text: #ffffff;
+}
+
+/* ===== ACCESSIBILITY ===== */
+:focus-visible {
+  outline: 3px solid #84cc16;
+  outline-offset: 2px;
+}
+
+/* Smooth background/text color transitions */
+html, body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Nav underline animation */
+.nav-link {
+  position: relative;
+  font-weight: bold;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--color-accentDark);
+  transition: width 0.3s ease;
+  font-weight: bold;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+  font-weight: bold;
+}
+
+/* Stars */
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 1s step-start infinite;
+}
+
+/* Featured Card Borders */
+@keyframes borderMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+/*
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+*/
+
+/*
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+*/
+
+/*
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+*/

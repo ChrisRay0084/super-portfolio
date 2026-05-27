@@ -1,0 +1,357 @@
+{
+  "projects": [
+    {
+    "id": 1,
+    "title": "Countdown Clock",
+    "description": "A modified version of a countdown clock created for an employer to track and display the end of features offered to their users.",
+    "image": "/images/projects/countdown_clock_covIMG.png",
+    "technologies": ["React", "Next.js", "TailwindCSS", "Framer Motion", "JavaScript", "TypeScript", "Git", "Vercel"],
+    "link": "https://countdown-clock-delta.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "Blackout Page",
+    "description": "A demo version of the blackout feature that i created for an employer to block access for users during maintenance windows.",
+    "image": "/images/projects/blackout_page_covIMG.png",
+    "technologies": ["React", "Next.js", "TailwindCSS", "JavaScript", "Git", "Vercel"],
+    "link": "https://blackout-page-dsgansvu9-chrisray0084s-projects.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "Contact Manager",
+    "description": "A email management application with registration functionality that stores users contacts with the ability to add, edit, and delete contacts.",
+    "image": "/images/projects/content_manager_covIMG.png",
+    "technologies": ["React", "Next.js", "TypeScript", "Tailwind", "API Routes", "JSON", "Git", "Vercel"],
+    "link": "https://contact-manager-one-pi.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "S.M.A.R.T. App",
+    "description": "A health and learning app that combines education, habit tracking, and behavioral systems into an interactive dashboard.",
+    "image": "/images/projects/smart_app_covIMG.png",
+    "technologies": ["React", "Next.js", "TypeScript", "Tailwind", "API Routes", "JSON", "Git", "Vercel"],
+    "link": "https://smart-app-fawn.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "Portfolio v1",
+    "description": "My update portfolio using modern coding framework and updated projects.",
+    "image": "/images/projects/portfolio_v1_covIMG.png",
+    "technologies": ["React", "Next.js", "Framer Motion", "TypeScript", "Tailwind", "API Routes", "JSON", "Git", "Vercel"],
+    "link": "#"
+  }
+  
+  ],
+
+  "threeDProjects": [],
+
+  "animatedProjects": [
+    {
+      "id": 301,
+      "title": "Help Button",
+      "description": "Help button animation.",
+      "image": "/images/animation/help button.png",
+      "video": "/images/animation/help button.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+    {
+      "id": 302,
+      "title": "Alarms Animated",
+      "description": "Animation of various alarms.",
+      "image": "/images/animation/alarm_animation.png",
+      "video": "/images/animation/alarm_animation.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+    {
+      "id": 303,
+      "title": "Clock Sped Up",
+      "description": "Animation of a clock sped up.",
+      "image": "/images/animation/clock fast.png",
+      "video": "/images/animation/clock fast.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+     {
+      "id": 304,
+      "title": "Chalk Board + Math",
+      "description": "Animation of a chalk board and math example.",
+      "image": "/images/animation/chalk board.png",
+      "video": "/images/animation/chalk board.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+    {
+      "id": 305,
+      "title": "White Board + Math",
+      "description": "Animation of a white board and math example.",
+      "image": "/images/animation/my_brick_white_brown_board.png",
+      "video": "/images/animation/my_brick_white_brown_board.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+     {
+      "id": 306,
+      "title": "Brown Notebook Flip",
+      "description": "Animation of a brown notebook turning its pages.",
+      "image": "/images/animation/brown_note book_page_turn.png",
+      "video": "/images/animation/brown_note book_page_turn.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+     {
+      "id": 307,
+      "title": "Airplane Drag Example",
+      "description": "An example of airplane drag.",
+      "image": "/images/animation/cool drag text.png",
+      "video": "/images/animation/cool drag text.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+     {
+      "id": 308,
+      "title": "A Planes Windshield",
+      "description": "An example of a planes windshield.",
+      "image": "/images/animation/plane_windshield.png",
+      "video": "/images/animation/plane_windshield.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+    {
+      "id": 309,
+      "title": "Runway Takeoff",
+      "description": "Animation of a 747 taking off from a runway.",
+      "image": "/images/animation/747_take_off_from_runway.png",
+      "video": "/images/animation/747_take_off_from_runway.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+    {
+      "id": 310,
+      "title": "Airplane Decent",
+      "description": "Animation of an airplane decending.",
+      "image": "/images/animation/air_plane_decent.png",
+      "video": "/images/animation/air_plane_decent.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+    {
+      "id": 311,
+      "title": "PPE Animation",
+      "description": "An animation of the proper personal protective equipment.",
+      "image": "/images/animation/blob_ppe_animation_1.png",
+      "video": "/images/animation/blob_ppe_animation_1.mp4",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    }
+  ],
+  
+  "twoDProjects": [
+    {
+      "id": 100,
+      "title": "Expansion Drive Shaft",
+      "description": "A 2d vector of an expansion drive shaft.",
+      "image": "/images/2d/expansion-drive2.png",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+    {
+      "id": 101,
+      "title": "Super Chargers",
+      "description": "A 2d vector of how super charges intake air.",
+      "image": "/images/2d/super_chargers.png",
+      "technologies": ["Illustrator"],
+      "link": "#"
+    },
+    {
+      "id": 102,
+      "title": "Laptop And Computers",
+      "description": "2d vectors of a laptop and computers.",
+      "image": "/images/2d/computer-and-laptop.png",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+    {
+      "id": 103,
+      "title": "Disc Break System",
+      "description": "A 2d vector of a disc break system",
+      "image": "/images/2d/disc-brake-system.png",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+     {
+      "id": 104,
+      "title": "Keys",
+      "description": "A 2d vector cutaway of a set of keys",
+      "image": "/images/2d/keys.png",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    }, 
+    {
+      "id": 105,
+      "title": "Ignition Coil",
+      "description": "A cutaway of an ignition coil.",
+      "image": "/images/2d/ignition-coils.png",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+     {
+      "id": 106,
+      "title": "ignition-MSD",
+      "description": "A 2d vector of a MSD ignition.",
+      "image": "/images/2d/ignition-MSD.png",
+      "technologies": ["Illustrator"],
+      "link": "#"
+    },
+     {
+      "id": 107,
+      "title": "Oil Barrels",
+      "description": "A 2d vector of a hazardous oil barrels.",
+      "image": "/images/2d/oil-barrels.png",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+     {
+      "id": 108,
+      "title": "Taped Packaging",
+      "description": "A 2d vector of various 'taped' packages",
+      "image": "/images/2d/packages.png",
+      "technologies": ["Adobe Animate"],
+      "link": "#"
+    },
+     {
+      "id": 109,
+      "title": "Electro Magnetic Actuator",
+      "description": "Various parts of an electro magnetic actuator.",
+      "image": "/images/2d/diagram-inside2-electromagnetic-actuator.png",
+      "technologies": ["Illustrator"],
+      "link": "#"
+    },
+     {
+      "id": 110,
+      "title": "Messy vs. Neat",
+      "description": "A 2d vector of a messy vs. neat shirt and tie",
+      "image": "/images/2d/shirt-neat-messy.png",
+      "technologies": ["Adobe Animage"],
+      "link": "#"
+    },
+    {
+      "id": 111,
+      "title": "Compressor 1",
+      "description": "A 2d cutaway of a compressor",
+      "image": "/images/2d/compressor4.png",
+      "technologies": ["Illustrator"],
+      "link": "#"
+    }
+  ],
+
+  "photography": [
+
+    {
+      "id": 201,
+      "title": "Kayak On The River",
+      "description": "A photo of a kayak trip on the river.",
+      "image": "/images/photography/kay_view.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 202,
+      "title": "Detroit's Christmas Tree Before Dark",
+      "description": "A photo of Detroit's Christmas tree taken mid-day.",
+      "image": "/images/photography/christmastree01.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 203,
+      "title": "Photo Of Love",
+      "description": "A portrait photo of a couple taken in with a mounted flash.",
+      "image": "/images/photography/autumnnvictor01.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 204,
+      "title": "Detriot's Grand Lion",
+      "description": "A photo of Detroit's iconic lion ad on the side of a building taken at night.",
+      "image": "/images/photography/det_lion_ad.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 205,
+      "title": "Aris The Farm Dog",
+      "description": "A photo of Aris, the farm dog, taken at a local farm.",
+      "image": "/images/photography/airis01.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 206,
+      "title": "The Goose Is Loose ",
+      "description": "A photo of a goose taken at a local farm.",
+      "image": "/images/photography/duck01.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 207,
+      "title": "Horse In A Stable",
+      "description": "A photo of a horse taken in a stable at a local farm.",
+      "image": "/images/photography/horse_farm1.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 208,
+      "title": "Downtown Holiday Lights",
+      "description": "A photo of the downtown holiday lights taken at night.",
+      "image": "/images/photography/downtown_lights1.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 209,
+      "title": "Roc The Puppy",
+      "description": "A photo of Roc, the puppy.",
+      "image": "/images/photography/roc_7_2020.jpeg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 210,
+      "title": "Baby Chicks",
+      "description": "A photo of baby chicks taken at a local farm.",
+      "image": "/images/photography/chick01.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+     {
+      "id": 211,
+      "title": "Christmas Tree At Night",
+      "description": "A photo of Detroit's Christmas tree taken at night.",
+      "image": "/images/photography/christmastree02.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 212,
+      "title": "Ducks Take A Dip",
+      "description": "Ducks at the Belle Isle Park in Detroit, MI.",
+      "image": "/images/photography/belle_ducks.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    },
+    {
+      "id": 213,
+      "title": "Detroit Rennaisance Center",
+      "description": "A photo of the Detroit Rennaisance Center taken during dusk in downtown Detroit.",
+      "image": "/images/photography/det_rencen1.jpg",
+      "technologies": ["Nikon D3500", "Lightroom", "Photoshop"],
+      "link": "#"
+    }
+     
+  ]
+}
