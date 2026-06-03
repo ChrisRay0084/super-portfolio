@@ -25,7 +25,7 @@ export default function Astroit() {
     return () => window.removeEventListener("resize", update);
   }, []);
 
-  // 🎯 Activation window
+  // Activation window
   const start = 0.19;
   const end = 0.45;
 
@@ -54,13 +54,13 @@ export default function Astroit() {
     [0, 360]
   );
 
-  // 🌊 smoothing
+  // smoothing
   const x = useSpring(xRaw, { stiffness: 60, damping: 20 });
   const y = useSpring(yRaw, { stiffness: 60, damping: 20 });
   const scale = useSpring(scaleRaw, { stiffness: 60, damping: 20 });
   const rotate = useSpring(rotateRaw, { stiffness: 50, damping: 25 });
 
-  // 🌬️ drift
+  // drift
   const driftX = useSpring(
     useTransform(scrollYProgress, [start, end], [0, -25]),
     { stiffness: 25, damping: 30 }
@@ -71,7 +71,7 @@ export default function Astroit() {
     { stiffness: 25, damping: 30 }
   );
 
-  // 🌪️ TRUE INDEPENDENT WOBBLE (NOT scroll-based)
+  // INDEPENDENT WOBBLE
   const wobbleX = useMotionValue(0);
   const wobbleY = useMotionValue(0);
 

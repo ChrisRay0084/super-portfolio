@@ -23,7 +23,7 @@ export default function Home() {
         <Moon />
       </div>
 
-      {/* HERO STACK (NEW CONTROLLED WORLD) */}
+      {/* HERO STACK */}
       <div className="relative z-10">
         <HeroSection
           heroImage={<HeroImage />}

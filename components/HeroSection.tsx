@@ -45,7 +45,7 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
         }}
       />
 
-      {/* Layers (UNCHANGED - important for your bug) */}
+      {/* Layers */}
       <LineBackAndForth />
       <GlassPanels />
       <StreakLine />
@@ -103,7 +103,7 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
           {/* BUTTONS */}
           <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
 
-            {/* ABOUT ME (replaces View Work safely) */}
+            {/* ABOUT ME */}
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -120,7 +120,7 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
               ABOUT ME
             </motion.button>
 
-            {/* GET IN TOUCH (UNCHANGED) */}
+            {/* GET IN TOUCH */}
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

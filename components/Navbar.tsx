@@ -22,7 +22,7 @@ export default function Navbar() {
   const formatId = (id: string) =>
     id.toLowerCase().replace(/\s+/g, "-");
 
-  // ✅ FIXED SCROLL (more reliable than scrollIntoView alone)
+  // FIXED SCROLL 
   const scrollToSection = (id: string) => {
     const el = document.getElementById(formatId(id));
 
@@ -141,7 +141,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* MOBILE MENU (FIXED OVERLAY VERSION) */}
+      {/* MOBILE MENU */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div

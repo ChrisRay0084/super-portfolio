@@ -2,8 +2,9 @@ import "./globals.css"
 import Navbar from "@/components/Navbar"
 
 export const metadata = {
+  name: "description"
   title: "Christopher Ray Portfolio - Fullstack Developer",
-  description: "Senior Web Developer / Junior Software Engineer / Fullstack Developer Portfolio accessibility specialist (WCAG 2.1 / WCAG 2.2 / Section 508 / ADA)",
+  content: "Senior Web Developer / Junior Software Engineer / Fullstack Developer Portfolio accessibility specialist (WCAG 2.1 / WCAG 2.2 / Section 508 / ADA)",
 }
 
 export default function RootLayout({

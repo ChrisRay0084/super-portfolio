@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 export default function Ufo() {
   const { scrollYProgress } = useScroll();
 
-  // ✅ Separate dimensions
+  // Separate dimensions
   const width = 180;
   const height = 90;
 

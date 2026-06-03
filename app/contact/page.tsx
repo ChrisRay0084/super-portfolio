@@ -184,7 +184,7 @@ export default function ContactPage() {
                 <motion.button
                   type="submit"
                   disabled={loading}
-                  variants={headingVariantsCenter}        // <-- use your variants
+                  variants={headingVariantsCenter}        
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: false, amount: 0.5 }}
