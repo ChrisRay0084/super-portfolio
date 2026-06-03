@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar"
 
 export const metadata = {
   title: "Christopher Ray Portfolio - Fullstack Developer",
-  description: "Fullstack Developer Portfolio",
+  description: "Senior Web Developer / Junior Software Engineer / Fullstack Developer Portfolio accessibility specialist (WCAG 2.1 / WCAG 2.2 / Section 508 / ADA)",
 }
 
 export default function RootLayout({
