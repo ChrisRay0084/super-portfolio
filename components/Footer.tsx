@@ -34,7 +34,7 @@ export default function Footer() {
         <motion.div variants={itemVariants}>
           <h3 className="text-2xl font-bold mb-4">Chris Ray</h3>
           <p className="text-gray-400 max-w-sm">
-            Developer focused on building modern, scalable, and high-performance web experiences using cutting-edge frameworks and technologies.
+            Highly motivated developer focused on building modern, scalable, and high-performance web experiences using cutting-edge frameworks and technologies.
           </p>
         </motion.div>
 
