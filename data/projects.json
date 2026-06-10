@@ -21,7 +21,7 @@
     "title": "Contact Manager",
     "description": "A email management application with registration functionality that stores users contacts with the ability to add, edit, and delete contacts.",
     "image": "/images/projects/content_manager_covIMG.png",
-    "technologies": ["React", "Next.js", "TypeScript", "Tailwind", "Supabase", "Git", "Vercel"],
+    "technologies": ["React", "Next.js", "TypeScript", "Tailwind", "Supabase DB", "Git", "Vercel"],
     "link": "https://contact-manager-one-pi.vercel.app/"
   },
   {
