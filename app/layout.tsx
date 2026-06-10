@@ -2,7 +2,7 @@ import "./globals.css"
 import Navbar from "@/components/Navbar"
 
 export const metadata = {
-  name: "description"
+  name: "description",
   title: "Christopher Ray Portfolio - Fullstack Developer",
   content: "Senior Web Developer / Junior Software Engineer / Fullstack Developer Portfolio accessibility specialist (WCAG 2.1 / WCAG 2.2 / Section 508 / ADA)",
 }

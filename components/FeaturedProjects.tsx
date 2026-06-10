@@ -27,7 +27,9 @@ const cardVariants = {
 }
 
 export default function FeaturedProjects({ featuredIds }: FeaturedProjectsProps) {
-  const featuredProjects: Project[] = projectsData.projects.filter((p) => featuredIds.includes(p.id))
+  const featuredProjects: Project[] = featuredIds
+  .map((id) => projectsData.projects.find((p) => p.id === id))
+  .filter((p): p is Project => Boolean(p))
 
   return (
     <section id="featured" aria-labelledby="featured-projects-heading" className="relative z-10 py-20 px-6 md:px-12 bg-black/0 overflow-hidden">
