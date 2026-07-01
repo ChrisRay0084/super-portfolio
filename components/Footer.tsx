@@ -80,6 +80,7 @@ export default function Footer() {
             <li>
               <a
                 href="https://www.linkedin.com/in/ucchrisray"
+                target="_blank"
                 className="hover:text-white transition-colors duration-200 flex items-center gap-2"
               >
                 <FaLinkedin /> LinkedIn
