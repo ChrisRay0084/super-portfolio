@@ -260,7 +260,7 @@ export default function ContactPage() {
                     </a>
 
                     <a
-                      href="https://github.com/yourusername"
+                      href="https://github.com/ChrisRay0084"
                       target="_blank"
                       className="block text-white hover:text-cyan-400 transition"
                     >
@@ -268,7 +268,7 @@ export default function ContactPage() {
                     </a>
 
                     <a
-                      href="https://linkedin.com/in/yourusername"
+                      href="https://linkedin.com/in/ucchrisray"
                       target="_blank"
                       className="block text-white hover:text-cyan-400 transition"
                     >
