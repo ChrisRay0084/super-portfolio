@@ -35,7 +35,7 @@
   {
     "id": 5,
     "title": "Portfolio v1",
-    "description": "My update portfolio using modern coding framework and updated projects.",
+    "description": "My updated portfolio using modern coding framework and updated projects.",
     "image": "/images/projects/portfolio_v1_covIMG.png",
     "technologies": ["React", "Next.js", "Framer Motion", "TypeScript", "Tailwind", "API Routes", "JSON", "Git", "Vercel"],
     "link": "#"
