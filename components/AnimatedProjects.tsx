@@ -29,7 +29,7 @@ export default function AnimatedProjects() {
     <>
       <section
         id="animated-projects"
-        className="relative z-25 py-20 px-6 md:px-12
+        className="relative z-25 py-20 px-6 md:px-12 overflow-hidden
                   bg-gradient-to-b from-transparent via-[#2C3E50]/50 to-[#87CEEB]/100"
       >
 
@@ -148,28 +148,50 @@ export default function AnimatedProjects() {
       {/* Modal */}
       <Modal isOpen={!!selectedProject} onClose={() => setSelectedProject(null)}>
         {selectedProject && (
-          <>
-            {selectedProject.video ? (
-              <video
-                src={selectedProject.video}
-                controls
-                autoPlay
-                preload="auto"
-                className="w-full max-h-[75vh] object-contain rounded-lg mb-6"
-              />
-            ) : (
-              <img
-                src={selectedProject.image || "/images/placeholder.png"}
-                alt={selectedProject.title}
-                className="w-full max-h-[75vh] object-contain rounded-lg mb-6"
-              />
-            )}
+          <div className="w-full h-full px-4 pb-4 pt-3 md:px-6 md:pb-6 md:pt-4 overflow-hidden">
+            <div className="flex flex-col h-full">
+              <div className="relative flex items-center justify-center min-h-0 flex-1">
+                {selectedProject.video ? (
+                  <video
+                    src={selectedProject.video}
+                    controls
+                    autoPlay
+                    preload="auto"
+                    className="max-h-[50vh] sm:max-h-[55vh] md:max-h-[60vh] w-full max-w-4xl object-contain rounded-lg bg-[#0b0d13]"
+                  />
+                ) : (
+                  <img
+                    src={selectedProject.image || "/images/placeholder.png"}
+                    alt={selectedProject.title}
+                    className="max-h-[50vh] sm:max-h-[55vh] md:max-h-[60vh] w-full max-w-4xl object-contain rounded-lg bg-[#0b0d13]"
+                  />
+                )}
+              </div>
 
-            <h3 className="text-2xl font-bold mb-2">{selectedProject.title}</h3>
-            <p className="text-gray-400 font-bold mb-4">
-              {selectedProject.description}
-            </p>
-          </>
+              <div className="mt-4 min-h-0 overflow-hidden pl-1 pb-1">
+                <h3 className="text-xl md:text-2xl font-bold mb-2">{selectedProject.title}</h3>
+                <p className="text-sm md:text-base text-white mb-4">{selectedProject.description}</p>
+
+                {selectedProject.technologies?.length > 0 && (
+                  <div>
+                    <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">
+                      Applications
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {selectedProject.technologies.map((tech, i) => (
+                        <span
+                          key={i}
+                          className="bg-cyan-400/10 text-cyan-300 text-xs px-2 py-1 rounded-full border border-cyan-400/20"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
         )}
       </Modal>
     </>

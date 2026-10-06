@@ -9,7 +9,53 @@
     "link": "https://countdown-clock-delta.vercel.app/"
   },
   {
-    "id": 2,
+  "id": 2,
+  "title": "Using Ping Command",
+  "description": "A Packet Tracer project that demonstrates the use of the ping command to test connectivity between devices in a network.",
+  "image": "/images/projects/Packet_Tracer/Use_Ping_Command/PacketTracer_Use_Ping_Command_0.png",
+  "image1": "/images/projects/Packet_Tracer/Use_Ping_Command/PacketTracer_Use_Ping_Command_1.png",
+  "image2": "/images/projects/Packet_Tracer/Use_Ping_Command/PacketTracer_Use_Ping_Command_2.png",
+  "technologies": ["Packet Tracer", "Networking"],
+  "link": ""
+  },
+  {
+  "id": 3,
+  "title": "Config DHCP On A Wireless Router",
+  "description": "A Packet Tracer project that demonstrates the configuration of DHCP on a wireless router and its clients.",
+  "image": "/images/projects/Packet_Tracer/Config_DHCP_on_a_WirelessRouter/PacketTracer_Config_WirelessRouter_0.png",
+  "image1": "/images/projects/Packet_Tracer/Config_DHCP_on_a_WirelessRouter/PacketTracer_Config_WirelessRouter_1.png",
+  "image2": "/images/projects/Packet_Tracer/Config_DHCP_on_a_WirelessRouter/PacketTracer_Config_WirelessRouter_2.png",
+  "image3": "/images/projects/Packet_Tracer/Config_DHCP_on_a_WirelessRouter/PacketTracer_Config_WirelessRouter_3.png",
+  "image4": "/images/projects/Packet_Tracer/Config_DHCP_on_a_WirelessRouter/PacketTracer_Config_WirelessRouter_4.png",
+  "image5": "/images/projects/Packet_Tracer/Config_DHCP_on_a_WirelessRouter/PacketTracer_Config_WirelessRouter_5.png",
+  "technologies": ["Packet Tracer", "Networking"],
+  "link": ""
+  },
+  {
+  "id":4,
+  "title": "Exxamine NAT On A Wireless Router",
+  "description": "A Packet Tracer project that demonstrates the examination of NAT functionality on a wireless router.",
+  "image": "/images/projects/Packet_Tracer/Examine_NAT_On_A_WirelessRouter/PacketTracer_Examine_NAT_On_A_WirelessRouter_0.png",
+  "image1": "/images/projects/Packet_Tracer/Examine_NAT_On_A_WirelessRouter/PacketTracer_Examine_NAT_On_A_WirelessRouter_1.png",
+  "image2": "/images/projects/Packet_Tracer/Examine_NAT_On_A_WirelessRouter/PacketTracer_Examine_NAT_On_A_WirelessRouter_2.png",
+  "image3": "/images/projects/Packet_Tracer/Examine_NAT_On_A_WirelessRouter/PacketTracer_Examine_NAT_On_A_WirelessRouter_3.png",
+  "image4": "/images/projects/Packet_Tracer/Examine_NAT_On_A_WirelessRouter/PacketTracer_Examine_NAT_On_A_WirelessRouter_4.png",
+  "technologies": ["Packet Tracer", "Networking"],
+  "link": ""
+  },
+  {
+  "id": 5,
+  "title": "Logical and Physical Mode Exploration",
+  "description": "A Packet Tracer project that demonstrates connecting different devices in a wiring closet to connect two different networks together to provide connectivity between the two networks.",
+  "image": "/images/projects/Packet_Tracer/Logical_and_Physical_Mode_Exploration/PacketTracer_Logical_and_Physical_Mode_Exploration_0.png",
+  "image1": "/images/projects/Packet_Tracer/Logical_and_Physical_Mode_Exploration/PacketTracer_Logical_and_Physical_Mode_Exploration_1.png",
+  "image2": "/images/projects/Packet_Tracer/Logical_and_Physical_Mode_Exploration/PacketTracer_Logical_and_Physical_Mode_Exploration_2.png",
+  "image3": "/images/projects/Packet_Tracer/Logical_and_Physical_Mode_Exploration/PacketTracer_Logical_and_Physical_Mode_Exploration_3.png",
+  "technologies": ["Packet Tracer", "Networking"],
+  "link": ""
+  },
+  {
+    "id": 6,
     "title": "Blackout Page",
     "description": "A demo version of the blackout feature that i created for an employer to block access for users during maintenance windows.",
     "image": "/images/projects/blackout_page_covIMG.png",
@@ -17,7 +63,7 @@
     "link": "https://blackout-page-dsgansvu9-chrisray0084s-projects.vercel.app/"
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Contact Manager",
     "description": "A email management application with registration functionality that stores users contacts with the ability to add, edit, and delete contacts.",
     "image": "/images/projects/content_manager_covIMG.png",
@@ -25,7 +71,7 @@
     "link": "https://contact-manager-one-pi.vercel.app/"
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "S.M.A.R.T. App",
     "description": "A health and learning app that combines education, habit tracking, and behavioral systems into an interactive dashboard.",
     "image": "/images/projects/smart_app_covIMG.png",
@@ -33,12 +79,26 @@
     "link": "https://smart-app-fawn.vercel.app/"
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "Portfolio v1",
     "description": "My updated portfolio using modern coding framework and updated projects.",
     "image": "/images/projects/portfolio_v1_covIMG.png",
     "technologies": ["React", "Next.js", "Framer Motion", "TypeScript", "Tailwind", "API Routes", "JSON", "Git", "Vercel"],
     "link": "#"
+  },
+  {
+    "id": 10,
+    "title": "A Packet Tracer project that demonstrates the configuration of a wireless router and its clients.",
+    "description": "Configuration of a wireless router and its clients",
+    "image": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_0.png",
+    "image1": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_1.png",
+    "image2": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_2.png",
+    "image3": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_3.png",
+    "image4": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_4.png",
+    "image5": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_5.png",
+    "image6": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_6.png",
+    "technologies": ["Packet Tracer", "Networking"],
+    "link": ""
   }
   
   ],
@@ -233,7 +293,7 @@
       "title": "Messy vs. Neat",
       "description": "A 2d vector of a messy vs. neat shirt and tie",
       "image": "/images/2d/shirt-neat-messy.png",
-      "technologies": ["Adobe Animage"],
+      "technologies": ["Adobe Animate"],
       "link": "#"
     },
     {

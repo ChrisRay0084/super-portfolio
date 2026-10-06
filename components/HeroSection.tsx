@@ -73,6 +73,7 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
           <div className="pt-2 md:pt-4 pb-4 px-2 md:px-0">
             <Typewriter
               phrases={[
+                "Cybersecurity Analyst",
                 "Senior Web Developer",
                 "React & Next.js Engineer",
                 "Frontend Systems Engineer",
@@ -151,14 +152,15 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
 
       {/* ABOUT MODAL */}
       <Modal isOpen={aboutOpen} onClose={() => setAboutOpen(false)}>
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 20 }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
-          className="text-white"
-        >
-          {/* HEADER */}
+        <div className="w-full max-h-[calc(100vh-150px)] overflow-y-auto px-4 pb-4 pt-3 md:px-6 md:pb-6 md:pt-4">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            className="text-white"
+          >
+            {/* HEADER */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -240,7 +242,8 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
           >
             I care about building software that not only works — but works for everyone.
           </motion.p>
-        </motion.div>
+          </motion.div>
+        </div>
       </Modal>
 
     </section>

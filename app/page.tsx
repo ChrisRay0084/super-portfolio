@@ -30,7 +30,7 @@ export default function Home() {
         />
       </div>
 
-      <FeaturedProjects featuredIds={[4, 3, 2]} />
+      <FeaturedProjects featuredIds={[9, 8, 10]} />
       <SkillsSection />
       <ProjectsSection />
       <Ufo />
@@ -38,7 +38,7 @@ export default function Home() {
       <AnimatedProjects />
       <TwoDProjects />
       <PhotographySection />
-      <ContactPage />
+      <ContactPage /> 
       <Footer />
     </div>
   );

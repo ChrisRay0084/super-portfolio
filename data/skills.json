@@ -103,6 +103,14 @@
       "years": 20,
       "description": "Programming language for web development, enabling interactivity and dynamic content.",
       "category": "Frontend"
+    },
+    {
+      "name": "Python",
+      "image": "/images/skills/python.png",
+      "proficiency": "Intermediate",
+      "years": 1,
+      "description": "Programming language for web development, data analysis, and automation.",
+      "category": "Backend"
     }
   ],
   "applications": [
@@ -147,6 +155,57 @@
       "proficiency": "Advanced",
       "years": 2,
       "description": "IDE for web development."
+    },
+    {
+      "name": "Packet Tracer",
+      "image": "/images/skills/cisco-packet-tracer.png",
+      "proficiency": "Intermediate",
+      "years": 1,
+      "description": "Network simulation and configuration tool for Cisco devices."
+    },
+    {
+      "name": "Splunk",
+      "image": "/images/skills/splunk.png",
+      "proficiency": "Intermediate",
+      "years": 1,
+      "description": "Data analysis and monitoring platform for IT operations and security."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "CompTIA Security+ ce Certification",
+      "image": "/images/certifications/Security+.png",
+      "proficiency": "Advanced",
+      "years": 1,
+      "description": "CompTIA Security+ ce Certification."
+    },
+    {
+      "name": "Google Cybersecurity Professional",
+      "image": "/images/certifications/google-cybersecurity-professional-certificate-v-2.png",
+      "proficiency": "Intermediate",
+      "years": 1,
+      "description": "Google Cybersecurity Professional Certification."
+    },
+    {
+      "name": "Network Defense",
+      "image": "/images/certifications/network-defense.png",
+      "proficiency": "Intermediate",
+      "years": 3,
+      "description": "Cisco Network Defense Certification."
+    },
+    {
+      "name": "Google AI Essentials",
+      "image": "/images/certifications/google-ai-essentials-v1.png",
+      "proficiency": "Intermediate",
+      "years": 5,
+      "description": "Google AI Essentials Certification."
+    },
+    {
+      "name": "Project Management Fundamentals",
+      "image": "/images/certifications/project-management-fundamentals.png",
+      "proficiency": "Advanced",
+      "years": 20,
+      "description": "IBM Project Management Fundamentals Certification."
     }
   ]
 }
