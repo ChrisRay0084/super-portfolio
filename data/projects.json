@@ -80,6 +80,16 @@
   },
   {
     "id": 9,
+    "title": "Blue Team Labs - D3fend",
+    "description": "Testing of my defensive cybersecurity techniques and their relationships to offensive/ad-versary techniques.",
+    "image": "/images/projects/Blue_Team_Labs/D3fend/Blue_Team_Labs_D3fend_completion.png",
+    "image1": "/images/projects/Blue_Team_Labs/D3fend/D3fend_site.png",
+    "image2": "/images/projects/Blue_Team_Labs/D3fend/Blue_Team_Labs_D3fend_questions.png",
+    "technologies": ["Cyber Security"],
+    "link": "#"
+  },
+  {
+    "id": 10,
     "title": "Portfolio v1",
     "description": "My updated portfolio using modern coding framework and updated projects.",
     "image": "/images/projects/portfolio_v1_covIMG.png",
@@ -87,7 +97,7 @@
     "link": "#"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "A Packet Tracer project that demonstrates the configuration of a wireless router and its clients.",
     "description": "Configuration of a wireless router and its clients",
     "image": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_0.png",
@@ -98,6 +108,52 @@
     "image5": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_5.png",
     "image6": "/images/projects/Packet_Tracer/Config_WirelessRouter_and_Clients/PacketTracer_Config_WirelessRouter_Clients_6.png",
     "technologies": ["Packet Tracer", "Networking"],
+    "link": ""
+  },
+  {
+    "id": 12,
+    "title": "Blue Team Labs - Bruteforce",
+    "description": "One of our system administrators identified a large number of Audit Failure events in the Windows Security Event log. Can you analyze logs from an attempted RDP bruteforce attack?",
+    "image": "/images/projects/Blue_Team_Labs/Bruteforce/Blue_Team_Labs_Bruteforce_completion.png",
+    "image1": "/images/projects/Blue_Team_Labs/Bruteforce/Q1_splunk.png",
+    "image2": "/images/projects/Blue_Team_Labs/Bruteforce/Q1_blueTeam.png",
+    "image3": "/images/projects/Blue_Team_Labs/Bruteforce/Q2_splunk.png",
+    "image4": "/images/projects/Blue_Team_Labs/Bruteforce/Q2_blueTeam.png",
+    "image5": "/images/projects/Blue_Team_Labs/Bruteforce/Q3_splunk.png",
+    "image6": "/images/projects/Blue_Team_Labs/Bruteforce/Q3_blueTeam.png",
+    "image7": "/images/projects/Blue_Team_Labs/Bruteforce/Q4_splunk.png",
+    "image8": "/images/projects/Blue_Team_Labs/Bruteforce/Q4_blueTeam.png",
+    "image9": "/images/projects/Blue_Team_Labs/Bruteforce/Q5_splunk.png",
+    "image10": "/images/projects/Blue_Team_Labs/Bruteforce/Q5_blueTeam.png",
+    "image11": "/images/projects/Blue_Team_Labs/Bruteforce/Q6_splunk.png",
+    "image12": "/images/projects/Blue_Team_Labs/Bruteforce/Q6_blueTeam.png",
+    "image13": "/images/projects/Blue_Team_Labs/Bruteforce/Q7_splunk.png",
+    "image14": "/images/projects/Blue_Team_Labs/Bruteforce/Q7_blueTeam.png",
+    "technologies": ["Cyber Security", "Splunk", "SPL", "Log Analysis"],
+    "link": ""
+  },
+  {
+    "id": 13,
+    "title": "Blue Team Labs - Log Analysis",
+    "description": "You are provided with Sysmon logs from a compromised endpoint. Analyse the logs to find out the steps and techniques used by the attacker.",
+    "image": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Blue_Team_Labs_LogAnalysis_Sysmon_completion.png",
+    "image1": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q1_splunk.png",
+    "image2": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q1_blueTeam.png",
+    "image3": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q2_splunk.png",
+    "image4": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q2_blueTeam.png",
+    "image5": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q3_splunk.png",
+    "image6": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q3_blueTeam.png",
+    "image7": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q4_splunk.png",
+    "image8": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q4_blueTeam.png",
+    "image9": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q5_splunk.png",
+    "image10": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q5_blueTeam.png",
+    "image11": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q6_splunk.png",
+    "image12": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q6_blueTeam.png",
+    "image13": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q7_splunk.png",
+    "image14": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q7_blueTeam.png",
+    "image15": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q8_splunk.png",
+    "image16": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q8_blueTeam.png",
+    "technologies": ["Cyber Security", "Splunk", "SPL", "Log Analysis"],
     "link": ""
   }
   

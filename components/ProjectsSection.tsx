@@ -20,12 +20,22 @@ interface Project {
   image8?: string
   image9?: string
   image10?: string
+  image11?: string
+  image12?: string
+  image13?: string
+  image14?: string
+  image15?: string
+  image16?: string
+  image17?: string
+  image18?: string
+  image19?: string
+  image20?: string
   technologies: string[]
   link: string
 }
 
 const getProjectImages = (project: Project) => {
-  const imageKeys = ["image", "image1", "image2", "image3", "image4", "image5", "image6", "image7", "image8", "image9", "image10"] as const
+  const imageKeys = ["image", "image1", "image2", "image3", "image4", "image5", "image6", "image7", "image8", "image9", "image10", "image11", "image12", "image13", "image14", "image15", "image16", "image17", "image18", "image19", "image20"] as const
 
   return imageKeys
     .map((key) => project[key])
