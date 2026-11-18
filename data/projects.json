@@ -5,7 +5,7 @@
     "title": "Countdown Clock",
     "description": "A modified version of a countdown clock created for an employer to track and display the end of features offered to their users.",
     "image": "/images/projects/countdown_clock_covIMG.png",
-    "technologies": ["React", "Next.js", "TailwindCSS", "Framer Motion", "JavaScript", "TypeScript", "Git", "Vercel"],
+    "technologies": ["React", "Next.js", "TailwindCSS", "Framer Motion", "JavaScript", "TypeScript", "GitHub", "Vercel"],
     "link": "https://countdown-clock-delta.vercel.app/"
   },
   {
@@ -59,7 +59,7 @@
     "title": "Blackout Page",
     "description": "A demo version of the blackout feature that i created for an employer to block access for users during maintenance windows.",
     "image": "/images/projects/blackout_page_covIMG.png",
-    "technologies": ["React", "Next.js", "TailwindCSS", "JavaScript", "Git", "Vercel"],
+    "technologies": ["React", "Next.js", "TailwindCSS", "JavaScript", "GitHub", "Vercel"],
     "link": "https://blackout-page-dsgansvu9-chrisray0084s-projects.vercel.app/"
   },
   {
@@ -67,7 +67,7 @@
     "title": "Contact Manager",
     "description": "A email management application with registration functionality that stores users contacts with the ability to add, edit, and delete contacts.",
     "image": "/images/projects/content_manager_covIMG.png",
-    "technologies": ["React", "Next.js", "TypeScript", "Tailwind", "Supabase DB", "Git", "Vercel"],
+    "technologies": ["React", "Next.js", "TypeScript", "Tailwind", "Supabase DB", "GitHub", "Vercel"],
     "link": "https://contact-manager-one-pi.vercel.app/"
   },
   {
@@ -75,7 +75,7 @@
     "title": "S.M.A.R.T. App",
     "description": "A health and learning app that combines education, habit tracking, and behavioral systems into an interactive dashboard.",
     "image": "/images/projects/smart_app_covIMG.png",
-    "technologies": ["React", "Next.js", "TypeScript", "Tailwind", "API Routes", "JSON", "Git", "Vercel"],
+    "technologies": ["React", "Next.js", "TypeScript", "Tailwind", "API Routes", "JSON", "GitHub", "Vercel"],
     "link": "https://smart-app-fawn.vercel.app/"
   },
   {
@@ -93,7 +93,7 @@
     "title": "Portfolio v1",
     "description": "My updated portfolio using modern coding framework and updated projects.",
     "image": "/images/projects/portfolio_v1_covIMG.png",
-    "technologies": ["React", "Next.js", "Framer Motion", "TypeScript", "Tailwind", "API Routes", "JSON", "Git", "Vercel"],
+    "technologies": ["React", "Next.js", "Framer Motion", "TypeScript", "Tailwind", "API Routes", "JSON", "GitHub", "Vercel"],
     "link": "#"
   },
   {
@@ -155,6 +155,44 @@
     "image16": "/images/projects/Blue_Team_Labs/Log_Analysis_Sysmon/Q8_blueTeam.png",
     "technologies": ["Cyber Security", "Splunk", "SPL", "Log Analysis"],
     "link": ""
+  },
+  {
+    "id": 14,
+    "title": "Cyber Security - Lake Shore Bank Incident",
+    "description": "Conducted a simulated SOC investigation for Lakeshore Community Bank, analyzing authentication logs, employee records, and IP reputation data to identify suspicious login activity, investigate potential compromised accounts, and assess a suspected password-spraying attack against the bank's VPN. Applied threat detection, log analysis, and incident response techniques to evaluate security risks and develop recommendations.",
+    "image": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank01.png",
+    "image1": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank02.png",
+    "image2": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank03.png",
+    "image3": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank04.png",
+    "image4": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank05.png",
+    "image5": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank06.png",
+    "image6": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank07.png",
+    "image7": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank08.png",
+    "image8": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank09.png",
+    "image9": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank010.png",
+    "image10": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank011a.png",
+    "image11": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank011b.png",
+    "image12": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank012.png",
+    "image13": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank013.png",
+    "image14": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank014.png",
+    "image15": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank015a.png",
+    "image16": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank015b.png",
+    "image17": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank015c.png",
+    "image18": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank015d.png",
+    "image19": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank016.png",
+    "image20": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank017.png",
+    "image21": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank018.png",
+    "image22": "/images/projects/School_Moose_Labs/Lakeshore_Community_Bank/LakeshoreBank019.png",
+    "technologies": ["Cyber Security", "Splunk", "SPL", "Log Analysis"],
+    "link": ""
+  },
+  {
+    "id": 15,
+    "title": "Monthly Expense Tracker",
+    "description": "A personal finance application that helps users manage expenses, track recurring income and bills, monitor payments, and view monthly financial summaries in one centralized dashboard.",
+    "image": "/images/projects/monthly_expense_tracker_covIMG.png",
+    "technologies": ["HTML", "CSS", "JavaScript", "Python", "FastAPI", "Uvicorn", "Neon PostgreSQL", "SQLite", "Vercel", "GitHub"],
+    "link": "#"
   }
   
   ],

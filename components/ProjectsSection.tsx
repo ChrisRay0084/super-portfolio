@@ -30,12 +30,17 @@ interface Project {
   image18?: string
   image19?: string
   image20?: string
+  image21?: string
+  image22?: string
+  image23?: string
+  image24?: string
+  image25?: string
   technologies: string[]
   link: string
 }
 
 const getProjectImages = (project: Project) => {
-  const imageKeys = ["image", "image1", "image2", "image3", "image4", "image5", "image6", "image7", "image8", "image9", "image10", "image11", "image12", "image13", "image14", "image15", "image16", "image17", "image18", "image19", "image20"] as const
+  const imageKeys = ["image", "image1", "image2", "image3", "image4", "image5", "image6", "image7", "image8", "image9", "image10", "image11", "image12", "image13", "image14", "image15", "image16", "image17", "image18", "image19", "image20", "image21", "image22", "image23", "image24", "image25"] as const
 
   return imageKeys
     .map((key) => project[key])
@@ -293,11 +298,20 @@ export default function ProjectsSection() {
                   )}
 
                   {currentProjectImage ? (
-                    <img
-                      src={currentProjectImage}
-                      alt={`${selectedProject.title} image ${selectedImageIndex + 1}`}
-                      className="max-h-[50vh] sm:max-h-[55vh] md:max-h-[60vh] w-full max-w-4xl object-contain rounded-lg bg-[#0b0d13]"
-                    />
+                    <a
+                      href={currentProjectImage}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Open full-size ${selectedProject.title} image ${selectedImageIndex + 1} in a new tab`}
+                      title="Open full-size image in a new tab"
+                      className="cursor-zoom-in"
+                    >
+                      <img
+                        src={currentProjectImage}
+                        alt={`${selectedProject.title} image ${selectedImageIndex + 1}`}
+                        className="max-h-[50vh] sm:max-h-[55vh] md:max-h-[60vh] w-full max-w-4xl object-contain rounded-lg bg-[#0b0d13]"
+                      />
+                    </a>
                   ) : (
                     <div className="flex h-[50vh] w-full items-center justify-center rounded-lg border border-cyan-400/20 bg-[#0b0d13] text-cyan-300">
                       No image available
