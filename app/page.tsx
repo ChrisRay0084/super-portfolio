@@ -30,7 +30,7 @@ export default function Home() {
         />
       </div>
 
-      <FeaturedProjects featuredIds={[13, 8, 10]} />
+      <FeaturedProjects featuredIds={[15, 13, 8]} />
       <SkillsSection />
       <ProjectsSection />
       <Ufo />

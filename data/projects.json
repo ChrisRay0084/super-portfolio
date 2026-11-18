@@ -192,7 +192,7 @@
     "description": "A personal finance application that helps users manage expenses, track recurring income and bills, monitor payments, and view monthly financial summaries in one centralized dashboard.",
     "image": "/images/projects/monthly_expense_tracker_covIMG.png",
     "technologies": ["HTML", "CSS", "JavaScript", "Python", "FastAPI", "Uvicorn", "Neon PostgreSQL", "SQLite", "Vercel", "GitHub"],
-    "link": "#"
+    "link": "https://monthlyexpensetracker-d96ytnk55-chrisray0084s-projects.vercel.app/"
   }
   
   ],
