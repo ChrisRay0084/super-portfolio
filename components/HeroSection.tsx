@@ -194,6 +194,15 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
             thoughtful, accessible solutions.
           </motion.p>
 
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            className="text-gray-400 mb-8 leading-relaxed"
+          >
+            I also specialize in cybersecurity, security monitoring, threat detection, and log analysis, with a focus on identifying suspicious activity and protecting systems.
+          </motion.p>
+
           {/* SKILLS GRID */}
           <motion.div
             initial="hidden"
@@ -214,7 +223,7 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
               "Accessibility (WCAG)",
               "Full-Stack Development",
               "System Modernization",
-              "Mentorship",
+              "Cybersecurity",
               "Client Collaboration",
             ].map((item) => (
               <motion.div
