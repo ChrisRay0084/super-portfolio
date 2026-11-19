@@ -138,6 +138,7 @@ export default function ContactPage() {
 
                 <input
                   name="name"
+                  autoComplete="name"
                   placeholder="Name *"
                   required
                   value={formData.name}
@@ -150,6 +151,7 @@ export default function ContactPage() {
                 <input
                   name="email"
                   type="email"
+                  autoComplete="email"
                   placeholder="Email *"
                   required
                   value={formData.email}
@@ -161,6 +163,7 @@ export default function ContactPage() {
 
                 <input
                   name="subject"
+                  autoComplete="off"
                   placeholder="Subject"
                   value={formData.subject}
                   onChange={handleChange}
@@ -171,6 +174,7 @@ export default function ContactPage() {
 
                 <textarea
                   name="message"
+                  autoComplete="off"
                   rows={5}
                   placeholder="Message *"
                   required

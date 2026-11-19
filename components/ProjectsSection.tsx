@@ -121,6 +121,7 @@ export default function ProjectsSection() {
           <div className="relative p-[2px] rounded-xl bg-gradient-to-r from-cyan-400 via-blue-400 to-green-500 shadow-[0_0_15px_rgba(0,255,255,0.2)]">
             <div className="relative flex items-center rounded-lg bg-[#0f111a]/90 border border-cyan-400/20">
               <select
+                name="technology"
                 aria-label="Filter projects by technology"
                 value={selectedTechnology}
                 onChange={(event) => handleTechnologyChange(event.target.value)}
