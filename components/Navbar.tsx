@@ -69,6 +69,7 @@ export default function Navbar() {
     <motion.nav
       aria-label="Primary Navigation"
       className="
+        landscape-nav
         fixed top-0 left-0 w-full z-50
         border-b border-[color:var(--color-secondary)]
         bg-[color:var(--color-primary)]/90
@@ -79,7 +80,7 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="w-full px-6 md:px-12 py-3 flex items-center">
+      <div className="landscape-nav-header w-full px-6 md:px-12 py-3 flex items-center">
 
         {/* LEFT: Logo */}
         <div className="flex-shrink-0">
@@ -91,12 +92,12 @@ export default function Navbar() {
               filter: "drop-shadow(0 0 8px #0ea5e9)",
             }}
           >
-            <img src="/images/logo.svg" alt="Logo" className="opacity-80 w-50 h-16" />
+            <img src="/images/logo.svg" alt="Logo" className="landscape-nav-logo opacity-80 w-50 h-16" />
           </motion.button>
         </div>
 
         {/* DESKTOP NAV */}
-        <div className="ml-auto hidden md:flex items-center space-x-6">
+        <div className="landscape-nav-links ml-auto hidden md:flex items-center space-x-6">
           <ul className="flex space-x-6 font-bold">
             {sections.map((section) => {
               const id = formatId(section);
@@ -132,12 +133,16 @@ export default function Navbar() {
 
         {/* MOBILE HAMBURGER */}
         <button
-          className="ml-auto md:hidden flex flex-col gap-1 z-[60]"
+          type="button"
+          aria-label={mobileOpen ? "Close menu" : "Open menu"}
+          aria-expanded={mobileOpen}
+          aria-controls="primary-mobile-menu"
+          className="landscape-menu-toggle ml-auto md:hidden flex flex-col gap-1 z-[60]"
           onClick={() => setMobileOpen((v) => !v)}
         >
-          <span className="w-6 h-[2px] bg-white" />
-          <span className="w-6 h-[2px] bg-white" />
-          <span className="w-6 h-[2px] bg-white" />
+          <span aria-hidden="true" className="w-6 h-[2px] bg-white" />
+          <span aria-hidden="true" className="w-6 h-[2px] bg-white" />
+          <span aria-hidden="true" className="w-6 h-[2px] bg-white" />
         </button>
       </div>
 
@@ -145,11 +150,13 @@ export default function Navbar() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
+            id="primary-mobile-menu"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
             className="
+              landscape-menu-panel
               fixed top-[64px] left-0 w-full z-[9999]
               md:hidden
               bg-[color:var(--color-primary)]/95

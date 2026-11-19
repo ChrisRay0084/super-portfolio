@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export default function FloatingOrbs() {
     return (
-        <div className="absolute inset-0 pointer-events-none">
+        <div className="mobile-floating-orbs absolute inset-0 pointer-events-none">
 
       {/* Node 1 */}
       <motion.div

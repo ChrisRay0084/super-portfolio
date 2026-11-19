@@ -16,7 +16,7 @@ export default function Galaxy() {
       className="absolute inset-0 z-0 pointer-events-none flex items-center justify-center"
     >
       <motion.img
-        src="/images/galaxy.svg" // must be in /public/images/galaxy.svg
+        src="/images/galaxy.svg" 
         alt="Galaxy background"
         className="w-[70vw] max-w-[800px] min-w-[350px] mix-blend-screen"
       />

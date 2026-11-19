@@ -73,6 +73,71 @@ section {
   scroll-margin-top: 80px;
 }
 
+@media (orientation: landscape) and (max-height: 600px) {
+  .landscape-nav-header {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+
+  .landscape-nav-logo {
+    width: auto !important;
+    height: 2.5rem !important;
+  }
+
+  .landscape-nav-links {
+    display: none !important;
+  }
+
+  .landscape-menu-toggle {
+    display: flex !important;
+  }
+
+  .landscape-menu-panel {
+    display: block !important;
+    top: 3rem !important;
+    max-height: calc(100vh - 3rem);
+    max-height: calc(100dvh - 3rem);
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .landscape-hero {
+    align-items: flex-start !important;
+    padding-top: 5rem !important;
+  }
+
+  .mobile-streak-line {
+    top: auto !important;
+    bottom: 1rem !important;
+  }
+
+  .mobile-floating-orbs {
+    display: none !important;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 767px) {
+  .mobile-streak-line {
+    top: auto !important;
+    bottom: 0 !important;
+  }
+
+  .mobile-floating-orbs {
+    display: none !important;
+  }
+
+  .portrait-back-and-forth {
+    top: calc(23% - 2rem) !important;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 600px), (orientation: portrait) and (max-width: 767px) {
+  .mobile-moon {
+    display: none !important;
+  }
+}
+
 /*
 :root {
   --background: #ffffff;

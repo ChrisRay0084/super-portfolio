@@ -41,7 +41,7 @@ export default function Moon() {
     <motion.img
       src="/images/Moon.svg"
       alt="Moon"
-      className="fixed pointer-events-none z-50"
+      className="mobile-moon fixed pointer-events-none z-50"
       style={{
         top,
         left,

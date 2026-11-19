@@ -30,7 +30,7 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-start md:items-center justify-center pt-24 md:pt-0 overflow-hidden
+      className="landscape-hero relative min-h-screen flex items-start md:items-center justify-center pt-24 md:pt-0 overflow-hidden
                 bg-gradient-to-b from-black via-slate-900 to-black"
     >
 

@@ -6,7 +6,7 @@ export default function StreakLine() {
   return (
     <>
         <motion.div
-      className="absolute top-[90%] left-[1%] w-[900px] h-[1px]
+      className="mobile-streak-line absolute top-[90%] left-[1%] w-[900px] h-[1px]
         bg-cyan-400/40 overflow-hidden rounded"
     >
       {/* Streak */}
