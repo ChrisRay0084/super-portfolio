@@ -51,7 +51,7 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
       <StreakLine />
       <FloatingOrbs />
       <Stars count={50} enabled={true} />
-      <Galaxy />
+      {/* <Galaxy /> */}
 
       {/* Hero Content */}
       <div className="px-6 w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 items-center gap-12 relative z-20">
