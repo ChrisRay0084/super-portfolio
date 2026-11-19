@@ -109,15 +109,23 @@ section {
 
   .mobile-streak-line {
     top: auto !important;
-    bottom: 1rem !important;
+    bottom: 0 !important;
   }
 
   .mobile-floating-orbs {
     display: none !important;
   }
+
+  .landscape-back-and-forth {
+    top: calc(46% + 1rem) !important;
+  }
 }
 
 @media (orientation: portrait) and (max-width: 767px) {
+  .portrait-hero {
+    padding-bottom: 4rem !important;
+  }
+
   .mobile-streak-line {
     top: auto !important;
     bottom: 0 !important;
@@ -128,7 +136,7 @@ section {
   }
 
   .portrait-back-and-forth {
-    top: calc(23% - 2rem) !important;
+    top: calc(21% - 2rem) !important;
   }
 }
 

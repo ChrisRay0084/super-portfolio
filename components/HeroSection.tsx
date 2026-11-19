@@ -30,7 +30,7 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
   return (
     <section
       id="home"
-      className="landscape-hero relative min-h-screen flex items-start md:items-center justify-center pt-24 md:pt-0 overflow-hidden
+      className="landscape-hero portrait-hero relative min-h-screen flex items-start md:items-center justify-center pt-28 md:pt-28 overflow-hidden
                 bg-gradient-to-b from-black via-slate-900 to-black"
     >
 
@@ -51,7 +51,7 @@ export default function HeroSection({ heroImage }: { heroImage?: React.ReactNode
       <StreakLine />
       <FloatingOrbs />
       <Stars count={50} enabled={true} />
-      {/* <Galaxy /> */}
+      <Galaxy />
 
       {/* Hero Content */}
       <div className="px-6 w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 items-center gap-12 relative z-20">
