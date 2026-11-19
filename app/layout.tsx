@@ -21,7 +21,7 @@ export default function RootLayout({
     bg-[length:100%_auto]
   "
   style={{
-    backgroundImage: "url('/images/bg.png')"
+
   }}
       >
        
